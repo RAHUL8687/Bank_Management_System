@@ -2,7 +2,7 @@ import streamlit as st
 from hello import Bank
 
 st.set_page_config(page_title="Simple Bank App", layout="centered")
-st.title("🏦 Welcome to Streamlit Bank")
+st.title("🏦 Welcome to TriRAH  Bank")
 
 menu = st.sidebar.selectbox("Choose Action", ["Create Account", "Deposit", "Withdraw", "Show Details", "Update Info", "Delete Account"])
 
